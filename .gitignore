@@ -1,0 +1,43 @@
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Database data volumes
+mysql_data/
+postgres_data/
+*.sql.backup
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python (if using data generation scripts)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Solutions directory (contains exercise answers)
+lessons/solutions/
+
+# Claude Code configuration
+.claude/
